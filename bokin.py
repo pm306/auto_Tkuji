@@ -19,8 +19,9 @@ sleep(1)
 #Yahoo!iD、パスワードを入力する
 # your_id = "あなたのID"
 # your_password = "あなたのパスワード"
-your_id = "cibicibi2017"
-your_password = "jeGgRb2ARjSIcEhHyK/5"
+# id,passwordは環境変数に設定する
+your_id = ""
+your_password = ""
 #idを入力
 id_input = driver.find_element_by_xpath("//*[@id=\"username\"]")
 id_input.send_keys(your_id)
